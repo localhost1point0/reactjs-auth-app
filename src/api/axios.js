@@ -1,5 +1,6 @@
 import axios from "axios";
-const BASE_URL = "https://nodejs-auth-api-production.up.railway.app/api";
+// const BASE_URL = "https://nodejs-auth-api-production.up.railway.app/api";
+const BASE_URL = "https://nodejs-auth-api.onrender.com/api";
 
 export default axios.create({
   baseURL: BASE_URL,
