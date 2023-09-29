@@ -86,12 +86,12 @@ const Login = () => {
         />
         <button disabled={!user || !pwd ? true : false}>Sign In</button>
       </form>
-      <p>
+      {/* <p>
         Need an Account? <br />
         <span className="line">
           <Link to={"/register"}>Sign up</Link>{" "}
         </span>
-      </p>
+      </p> */}
     </section>
   );
 };
