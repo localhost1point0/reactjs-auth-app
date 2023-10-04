@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://saragamsubedi.com.np/api";
+const BASE_URL = "https://saragamsubedi.com.np/auth";
 
 export default axios.create({
   baseURL: BASE_URL,
